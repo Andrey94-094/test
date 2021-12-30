@@ -1,0 +1,35 @@
+.nav {
+    background: rgb(88, 88, 207);
+    @media (max-width: 500px) {
+        background: rgb(88, 88, 207);
+    }
+    &__container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__links a {
+        color: white;
+    }
+    &__link {
+        font-size: 1.2em;
+        padding: 0.5em 2em;
+    }
+    &__phones {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    &__phone {
+        color: black;
+        font-size: 1.2em;
+        padding: 0 1em;
+    }
+    &__phones a {
+        color: white;
+    }
+}

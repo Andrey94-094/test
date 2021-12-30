@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="./dist/bundle.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <section class="nav navbar navbar-expand-md navbar-dark bd-navbar section--inherit">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+            </svg>
+          </button>
+        <div class="navbar-collapse collapse" id="bdNavbar">
+            <div class="container">
+                <nav class="nav__container">
+                    <div class="nav__logo me-auto">
+                        <i class="fa fa-home"></i>
+                    </div>
+                    <div class="nav__links">
+                        <a href="#section-main" class="nav__link">Главная</a>
+                        <a href="#section-catalog" class="nav__link">Каталог</a>
+                        <a href="#modal-order" data-bs-toggle="modal" class="nav__link">Заказать</a>
+                    </div>
+                    <div class="nav__phones">
+                        <a href="tel:+375290000000" class="nav__phone">+375 (29) 000-00-00</a>
+                        <a href="tel:+375290000000" class="nav__phone">+375 (29) 000-00-00</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="c c__section text-center">
+        <div class="main__overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main__title">
+                        БЕНЗОПИЛЫ
+                    </div>
+                    <div class="main__title--shtenli my-3">
+                        SHTENLI
+                    </div>
+                    <div class="titl d-none d-md-block" data-titl data-titl-full-page-listening style=" transform:perspective(1000px) rotateX(0deg) rotateY(0 deg) scale3d(1,1,1); will-change: transform;">
+                        <div class="titl__inner">
+                            <div class="main__discount">СКИДКА 27%</div>
+                        </div>
+                        <img src="./assets/images/main/pila.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="main__block mb-2">
+                        <div id="countdown">
+                            <div class="h2 text-red main__pulse">+7 подарков по акции</div>
+                            <div class="h3 c__ff--alt">Перчатки, Свеча, Масло, Беруши, Смесь для заправки, Смазка, Напильник</div>
+                            <div class="h3 py-3">Только до конца недели!</div>
+
+                            <div id="clockdiv">
+                                <div>
+                                    <span class="days"></span>
+                                    <div class="smalltext">Дней</div>
+                                </div>
+                                <div>
+                                    <span class="hours"></span>
+                                    <div class="smalltext">Часов</div>
+                                </div>
+                                <div>
+                                    <span class="minutes"></span>
+                                    <div class="smalltext">Минут</div>
+                                </div>
+                                <div>
+                                    <span class="seconds"></span>
+                                    <div class="smalltext">Секунд</div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="deadline-message" class="deadline-message">
+                            Time is up!
+                        </div>
+                    </div>
+                    <div class="main__form">
+                        <p class="h1">Заполните форму</p>
+                        <p class="h2">для получения скидки</p>
+                        <hr>
+                        <form>
+                            <input type="hidden" name="form" value="Верхняя форма">
+                            <div class="form-group">
+                                <input type="tel" name="phone" class="form-control form-control-lg" placeholder="Номер телефона" required="">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-danger btn-block btn-lg shadow font-weight-bold transition--slide" type="submit">Забронировать скидку</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <section class="section  section--inherit  section--support">
+            <div class="container  container--support">
+                <div id="nav-4" class="support">
+                    <h3 class="support__title">
+                        Кредит и рассрочка
+                    </h3>
+                    <div class="support__content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h5 class="support__subsubtitle">
+                                    Рассрочка от фирмы:
+                                </h5>
+                                <ul>
+                                    <li class="support__text">
+                                        3 месяца | Первый взнос 50%
+                                    </li>
+                                </ul>
+                                <h5 class="support__subsubtitle">
+                                    Кредит от РРБ банка:
+                                </h5>
+                                <ul>
+                                    <li class="support__text">
+                                        От 6 до 36 месяцев.
+                                    </li>
+                                </ul>
+                                <h5 class="support__subsubtitle">
+                                    Для оформления банковского кредита требуется:
+                                </h5>
+                                <ul>
+                                    <li class="support__text">
+                                        Последняя страница (весь разворот)
+                                    </li>
+                                    <li class="support__text">
+                                        Предпоследняя страница (весь разворот)
+                                    </li>
+                                    <li class="support__text">
+                                        Фото прописки
+                                    </li>
+                                </ul>
+                                <a class="btn btn-danger btn-block btn-lg shadow font-weight-bold transition--slide" data-toggle="modal" data-target="#modal-order">
+                            Узнать больше
+                        </a>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="./assets/images/support/card.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section>
+
+    </section>
+
+    <!-- Modals -->
+    <div class="modal fade" id="modal-order">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="fs-2 text-center">Оставьте номер телефона</div>
+                    <div class="fs-3 text-center">Менеджер перезвонит Вам в ближайшее время!</div>
+                    <hr>
+                    <div class="fw-bold fs-3">
+                        <a href="tel:+375290000000" class="d-flex justify-content-center align-items-center text-reset">
+                            <img src="./assets/images/operator/logo_A1_56.png" class="img-fluid me-3" alt="A1" width="32">+375 (29) 000-00-00
+                        </a>
+                        <a href="tel:+375330000000" class="d-flex justify-content-center align-items-center text-reset">
+                            <img src="./assets/images/operator/logo_mts_64.jpg" class="img-fluid me-3" alt="mts" width="32">+375 (33) 000-00-00
+                        </a>
+                    </div>
+                    <hr>
+                    <form>
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="modal-order-name" placeholder="Ваше имя">
+                            <label for="modal-order-name">Ваше имя</label>
+                        </div>
+                        <div class="form-floating mt-4">
+                            <input type="tel" class="form-control" id="modal-order-tel" placeholder="Номер телефона" required>
+                            <label for="modal-order-tel">Номер телефона *</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100 mt-4 app-ff-alt">Заказать звонок</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>

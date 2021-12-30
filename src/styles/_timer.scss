@@ -1,0 +1,44 @@
+#clockdiv {
+    font-family: sans-serif;
+    color: black;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    @media (max-width: 500px) {
+        font-size: 16px;
+    }
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    background: none;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.deadline-message {
+    display: none;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
