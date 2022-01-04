@@ -1,0 +1,123 @@
+.section-catalog {
+    background-color: #f4f4f4;
+    &__title {
+        font-size: 2rem;
+        color: #383838;
+        text-align: center;
+        font-weight: bold;
+    }
+    &__description1 {
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+    &__description2 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #6c757d;
+    }
+    &__button {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        @media (max-width: 420px) {
+            font-size: 1rem;
+        }
+    }
+    &__button:hover {
+        color: black!important;
+    }
+}
+
+.old-prise:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #ff4545;
+    transform: rotate(170deg);
+    bottom: 43%;
+}
+
+.castom_input .c__input input {
+    display: none;
+}
+
+.castom_input .c__input input:checked+div {
+    color: #000;
+    background: #FFD000;
+}
+
+.castom_input .c__input div {
+    padding: 0.2rem 1rem;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.6em;
+    border-radius: 8px;
+    color: #000;
+    background: #F2F5F8;
+    cursor: pointer;
+    margin: 0.2rem;
+    @media (max-width: 420px) {
+        font-size: 1.05rem;
+        padding: 0.2rem .65rem;
+    }
+}
+
+.castom_input .c__input label:hover {
+    background: #d1dce6;
+}
+
+.catalog__label {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 1.5rem;
+    transform: translate(-10%, -50%);
+}
+
+.catalog__banck {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    max-width: 100%;
+    height: auto;
+    white-space: normal;
+    background-color: #FFD000;
+    box-shadow: 2px 5px 10px 5px #999;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    padding-right: 3rem;
+}
+
+.catalog__banck:before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: calc(80% - 35px);
+    right: -25px;
+    background: url('./../../assets/images/catalog/procent/sale.png') no-repeat center center;
+    background-size: contain;
+    transform: rotate(-45deg);
+    @media (max-width: 400px) {
+        width: 30px;
+        height: 30px;
+        right: -10px;
+    }
+}
+
+.catalog_formBtn {
+    transition: all 0.4s;
+    border-radius: 10px
+}
+
+.catalog_formBtn:hover {
+    color: #383838;
+    z-index: 11;
+    transform: scale(1.2);
+}

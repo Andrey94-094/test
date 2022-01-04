@@ -13,10 +13,12 @@ import form from "./components/form"
 import componentName from "./components/componentName"
 import rotation from "./components/rotation"
 import timer from "./components/timer"
+import calculator from "./components/calculator"
 
 document.addEventListener('DOMContentLoaded', () => {
     form()
     componentName()
     rotation()
     timer()
+    calculator()
 })

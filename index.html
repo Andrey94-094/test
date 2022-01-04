@@ -39,7 +39,7 @@
     </section>
 
 
-    <section class="c c__section text-center">
+    <section class="c c__section text-center" id="section-main">
         <div class="main__overlay"></div>
         <div class="container">
             <div class="row">
@@ -163,7 +163,73 @@
     </section>
 
     <section>
+        <div class="col-12 col-md-6 col-xl-4 my-3">
+            <form class="has-calculator bg-white rounded py-3">
+                <input type="hidden" name="product" value="product">
+                <div class="row text-center align-items-center px-3">
+                    <div class="col-12 py-3">
+                        <a href="./assets/images/catalog/2.4m.jpg" data-fancybox="">
+                            <img src="./assets/images/catalog/2.4m.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <div class="text-size-7 my-2 section-catalog__description1">Сибирская Мини 2.4м</div>
+                        <div class="my-2 section-catalog__description2">Удобный Вариант для Маленького участка, с дугой 20х20, Шириной 2.4м, Шагом 1м, Высотой 1.80м, Оцинкованным металлом</div>
+                        <hr>
+                    </div>
+                    <div class="py-2 col-12">
+                        <div class="castom_input d-flex align-items-center justify-content-between">
+                            <div class="font-weight-bold text-size-5 section-catalog__button">Длинна</div>
+                            <div>
+                                <label class="c__input d-inline-block">
+                                <input type="radio" name="length" value="4" checked="">
+                                <div>4</div>
+                            </label>
+                                <label class="c__input d-inline-block">
+                                <input type="radio" name="length" value="6">
+                                <div>6</div>
+                            </label>
+                                <label class="c__input d-inline-block">
+                                <input type="radio" name="length" value="8">
+                                <div >8</div>
+                            </label>
+                                <label class="c__input d-inline-block">
+                                <input type="radio" name="length" value="10">
+                                <div>10</div>
+                            </label>
+                            </div>
+                            <div class="section-catalog__button">М</div>
+                        </div>
+                    </div>
+                    <div class="py-2 col-12">
+                        <div class="castom_input d-flex align-items-center justify-content-between">
+                            <div class="font-weight-bold text-size-5 section-catalog__button">Шаг дуги</div>
+                            <div>
+                                <label class="c__input d-inline-block">
+                                <input type="radio" name="interval" value="1" checked="">
+                                <div >1 м</div>
+                            </label>
+                            </div>
+                            <div class="section-catalog__button">Акция</div>
+                        </div>
+                    </div>
+                    <div class="py-2 col-6 text-size-7">
+                        <span class="old-prise catalog__price position-relative">
+                        <span class="calculator-price-old" data-animation="animated tada delay-1s"></span> BYN</span>
+                        <br>
+                        <span class="h3 font-weight-bold">
+                        <span class="h1 calculator-price" data-animation="animated tada delay-1s"></span> BYN
+                        </span>
+                    </div>
+                    <div class="py-2 col-6 py-sm-3 py-1">
+                        <a data-bs-toggle="modal" data-bs-target="#cardModal" class="catalog__banck section-catalog__button">
+                    Карты Рассрочек
+                </a>
+                    </div>
+                </div>
+            </form>
 
+        </div>
     </section>
 
     <!-- Modals -->
